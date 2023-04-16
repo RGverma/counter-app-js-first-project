@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+/* dessing containner */
+.containner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    gap: 20px;
+    flex-direction: column;
+    box-shadow: 0 0 5px black;
+    padding: 20px;
+    
+ 
+}
+
+/* ab button ke sath khal lete hai  */
+button {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 5px 15px;
+    border-radius: 12px;
+    cursor: pointer;
+
+
+}
+
+#displayvlaue {
+    font-size: 30px;
+    padding: 5px 15px;
+    border:3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
